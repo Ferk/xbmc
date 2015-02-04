@@ -69,6 +69,7 @@ static const struct StereoModeMap VideoModeToGuiModeMap[] =
   { "col_interleaved_lr",       RENDER_STEREO_MODE_OFF }, // unsupported
   { "anaglyph_cyan_red",        RENDER_STEREO_MODE_ANAGLYPH_RED_CYAN },
   { "anaglyph_green_magenta",   RENDER_STEREO_MODE_ANAGLYPH_GREEN_MAGENTA },
+  { "anaglyph_yellow_blue",     RENDER_STEREO_MODE_ANAGLYPH_YELLOW_BLUE },
   { "block_lr",                 RENDER_STEREO_MODE_OFF }, // unsupported
   { "block_rl",                 RENDER_STEREO_MODE_OFF }, // unsupported
   {}
@@ -87,6 +88,7 @@ static const struct StereoModeMap StringToGuiModeMap[] =
   { "interlaced",               RENDER_STEREO_MODE_INTERLACED }, // alias
   { "anaglyph_cyan_red",        RENDER_STEREO_MODE_ANAGLYPH_RED_CYAN },
   { "anaglyph_green_magenta",   RENDER_STEREO_MODE_ANAGLYPH_GREEN_MAGENTA },
+  { "anaglyph_yellow_blue",     RENDER_STEREO_MODE_ANAGLYPH_YELLOW_BLUE },
   { "hardware_based",           RENDER_STEREO_MODE_HARDWAREBASED },
   { "monoscopic",               RENDER_STEREO_MODE_MONO },
   {}
